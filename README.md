@@ -55,11 +55,3 @@ miningaddress=yourworker.name
 miningpassword=123456789123456789
 
 ```
-
-
-
-
-hi! im new here so sorry if disturb or this is not the channel to ask.
-i got my rpc running for bells, and i wanted to change to mining node so, i created my account+worker on f2pool
-configured well my new extension address, but i dont understand the configuration for bells conf
-somebody know the name of keys i need to change in this file for my data set -> Pool URL + Worker name + Password ? thank you in advance!
