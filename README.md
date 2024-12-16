@@ -24,8 +24,9 @@ docker compose -f docker-compose.yml up -d --build
 
 1. Download extension to get your wallet address, [download chrome extension](https://chromewebstore.google.com/detail/nintondo-wallet/akkmagafhjjjjclaejjomkeccmjhdkpa)
 2. We need to configure a Mining pool configuracion
-  a. go to https://www.f2pool.com/user/account#tab-mining-user (create account if need)
-  b. add a BELLS account, [check image](./docs/mining_pool_configure_01.png)
+
+  * go to https://www.f2pool.com/user/account#tab-mining-user (create account if need)
+  * add a BELLS account, [check image](./docs/mining_pool_configure_01.png)
 3. Modify the bells{version}/bells.conf file with the following configuration
 ```bash
 # Options for mainnet
