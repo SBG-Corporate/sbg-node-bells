@@ -1,0 +1,22 @@
+version: '3.3'
+
+services:
+  sbg-node-bellscoin:
+    build: ./
+    restart: always
+    container_name: sbg-node-bellscoin
+    ports:
+      - "22555:22555"
+    volumes:
+      - ./vol-bellchainstate:/root/.bells/chainstate
+      - ./vol-bellblocks:/root/.bells/blocks
+      - ./vol-bellbackups:/root/.bells/backups
+      - ./vol-belldatabase:/root/.bells/database
+      - ./bells-3.0.0-rc2/bells.conf:/root/.bells/bells.conf
+
+volumes:
+  bellchainstate:
+  bellblocks:
+  bellbackups:
+  bellconfig:
+  belldatabase:
